@@ -9,6 +9,8 @@ export function InputDemo() {
         <Input placeholder="Enter text here" className="mb-2" />
         <Label htmlFor="email">Email</Label>
         <Input type="email" placeholder="Input email" disabled />
+        <Label htmlFor="email">Email2</Label>
+        <Input type="email" placeholder="Input email" />
         <Label htmlFor="picture">Picture</Label>
         <Input id="picture" type="file" className="mb-2" />
         <Button type="submit" variant="outline">
